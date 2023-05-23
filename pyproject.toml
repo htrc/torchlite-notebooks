@@ -10,7 +10,7 @@ packages = [{include = "torchlite_notebooks", from = "src"}]
 python = "^3.11"
 jupyter = "^1.0.0"
 torchlite = { git = "git@github.com:htrc/torchlite-backend.git" }
-requests = "^2.28.2"
+requests = "^2.31.0"
 
 [build-system]
 requires = ["poetry-core"]
